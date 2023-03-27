@@ -1,0 +1,12 @@
+# COCO 2017 dataset http://cocodataset.org
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: /home/ubuntu/gmn/pathlist/train11-19.txt  # 118287 images
+val: /home/ubuntu/shuhuigao/data/test1500/test1500.txt  # 5000 images
+test: /media/yons/DATA2/dataset/test1000/test1000.txt # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# number of classes
+nc: 2
+
+# class names
+names: ['bird', 'niaoqun']
